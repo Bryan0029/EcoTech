@@ -119,6 +119,24 @@ nav a:hover {
     transform: scale(1.05);
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 2vmin 16px;
+    text-align: center;
+}
+
+ol {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    padding: 2vmin 16px;
+    text-align: center;
+}
+
 .button-newsletter {
     background-color: var(--cor-principal);
     color: var(--cor-texto-clara);
@@ -133,10 +151,9 @@ nav a:hover {
     transition: var(--transicao);
 }
 
-#input {
-    width: 100%;
+input {
     height: 48px;
-    border-radius: 4px;
+    border-radius: 10px;
     font-size: 20px;
     padding: 0 14px;
     margin-top: 8px;
@@ -145,11 +162,11 @@ nav a:hover {
 
 .button-newsletter:hover {
     transform: scale(1.1) translateY(-5px);
-    color: var(--cor-texto-clara);
+    background-color: var(--cor-texto-clara);
+    color: var(--cor-principal);
 }
 
 .button-newsletter:active {
-    background-color: var(--cor-principal);
     color: var(--cor-active-button);
     transform: scale(1.05);
 }
