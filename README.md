@@ -1,92 +1,111 @@
 # 🌱 EcoTech — Landing Page
-> Landing page para a EcoTech, startup fictícia de sustentabilidade que permite trocar lixo reciclável por créditos de energia.
 
-![status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
-![html](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
-![css](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+Landing page responsiva desenvolvida para a **EcoTech**, uma startup fictícia voltada à sustentabilidade.
 
----
+O projeto foi desenvolvido como atividade acadêmica de **Web Design no IFNMG**, com foco em HTML5 semântico, CSS3, responsividade e boas práticas de organização de código.
 
-## 📖 Sobre o projeto
-Projeto final da disciplina de Web Design, com o desafio de transformar o site de uma startup fictícia (backend já pronto, front-end desorganizado) em uma landing page profissional, responsiva e interativa, dentro do prazo de lançamento.
+## 📌 Sobre o projeto
 
-**Demo:** _(adicionar link do GitHub Pages aqui depois do deploy)_
-**Preview:** _(adicionar screenshot aqui depois de pronto)_
+A EcoTech é uma startup fictícia que propõe uma forma de incentivar a reciclagem: usuários podem trocar materiais recicláveis por **créditos de energia**.
 
----
+O objetivo deste projeto foi transformar uma estrutura inicial de frontend em uma landing page moderna, responsiva e visualmente organizada, apresentando a proposta da empresa e seus principais benefícios.
 
-## ✅ Checklist de exigências técnicas
+## ✨ Funcionalidades
 
-### 1. Estrutura e semântica (HTML5)
-- [x] Tags semânticas: `<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`
-- [x] Formulário de captura de leads com `required` e `type="email"`
+* 🏠 Página inicial com seção Hero e chamada para ação
+* 📱 Layout responsivo para diferentes tamanhos de tela
+* 🧭 Menu de navegação
+* ♻️ Apresentação dos benefícios da plataforma
+* ⚙️ Seção explicando o funcionamento da solução
+* 📩 Formulário para captura de e-mail
+* 🦶 Rodapé com informações e links
+* ✨ Microinterações e animações CSS
 
-### 2. Layout avançado e responsivo (CSS3)
-- [ ] CSS Grid na estrutura geral (ex: seção de benefícios) — **pendente**
-- [x] Flexbox nos alinhamentos internos (ex: menu de navegação)
-- [x] `@media queries` para adaptar mobile/desktop
-- [ ] Sem barra de rolagem horizontal em telas pequenas — **a validar**
+## 🛠️ Tecnologias utilizadas
 
-### 3. Organização e escalabilidade (variáveis CSS)
-- [x] Bloco `:root` no topo do CSS
-- [x] Pelo menos 3 cores em variável (primária, secundária, fundo)
-- [x] Fonte(s) em variável
-- [ ] `border-radius` padrão em variável — **pendente** (hardcoded em `.button-banner` e `.hero`)
-- [x] Nenhum hex solto fora do `:root`
+* **HTML5**
 
-### 4. Microinterações (transições e animações)
-- [x] `transition` suave em botões e links de navegação (hover)
-- [ ] `transform: scale(1.05)` nos cards de benefícios ao hover/foco — **pendente** (cards ainda não criados)
-- [ ] Pelo menos 1 animação contínua com `@keyframes` — **pendente**
+  * Estrutura semântica
+  * Formulários
+* **CSS3**
 
-### 5. Qualidade geral
-- [x] Código indentado e organizado
-- [x] Sem estilos inline
-- [x] Sem `<div>` para tudo (semântica correta)
+  * Flexbox
+  * CSS Grid
+  * Variáveis CSS
+  * Media Queries
+  * Transitions
+  * Animations com `@keyframes`
 
----
+O projeto foi desenvolvido **sem frameworks ou bibliotecas externas**, utilizando apenas HTML e CSS.
 
-## 🗂️ Estrutura sugerida da página
-| Seção | Conteúdo | Status |
-|---|---|---|
-| Header | Logo + menu (Home, Benefícios, Como Funciona, Contato) | ✅ Feito |
-| Hero | Frase de impacto, imagem ilustrativa, CTA com animação pulsante | 🟡 Falta imagem e animação |
-| Benefícios | 3–4 cards em grid, com hover | 🔴 Seção vazia |
-| Como Funciona | Explicação do funcionamento da plataforma | 🔴 Seção vazia |
-| Formulário | Campo de e-mail para captura de leads | ✅ Feito |
-| Footer | Direitos autorais + links sociais fictícios | 🟡 Falta links sociais |
+## 📱 Responsividade
 
----
+A interface foi desenvolvida utilizando uma abordagem **Mobile First**, adaptando o layout para diferentes resoluções e dispositivos.
 
-## 📁 Estrutura de pastas
-```
-ecotech-landing/
-├── index.html
-├── style/
-│   └── styles.css
-├── /assets
-│   ├── /img
-│   └── /icons
+Principais recursos utilizados:
+
+* Media Queries
+* Unidades relativas
+* Flexbox
+* CSS Grid
+* `clamp()`
+* Variáveis CSS
+
+## 📂 Estrutura do projeto
+
+```text
+EcoTech/
+├── EcoTech/
+│   ├── index.html
+│   ├── style/
+│   │   └── styles.css
+│   └── assets/
+│       ├── img/
+│         └── Image-Banner.png
+│
 └── README.md
 ```
 
----
+## 🚀 Como executar
 
-## 🛠️ Tecnologias
-- HTML5 semântico
-- CSS3 (Grid, Flexbox, variáveis, `@keyframes`)
-- Sem frameworks ou bibliotecas externas
+Clone o repositório:
 
----
-
-## ▶️ Como rodar localmente
 ```bash
-git clone https://github.com/seu-usuario/ecotech-landing.git
-cd ecotech-landing
+git clone https://github.com/Bryan0029/EcoTech.git
 ```
-Depois, basta abrir o `index.html` no navegador (ou usar a extensão Live Server do VS Code).
 
----
+Entre na pasta:
+
+```bash
+cd EcoTech
+```
+
+Depois, abra o arquivo `index.html` no navegador.
+
+Também é possível utilizar a extensão **Live Server** no Visual Studio Code para executar o projeto localmente.
+
+## 🎯 Objetivos de aprendizagem
+
+Durante o desenvolvimento, foram praticados conceitos como:
+
+* Estruturação semântica de páginas HTML
+* Desenvolvimento de layouts responsivos
+* Organização e reutilização de estilos CSS
+* Utilização de Flexbox e CSS Grid
+* Criação de animações e transições
+* Organização de um projeto frontend
+* Desenvolvimento seguindo uma proposta visual definida
+
+## 📚 Contexto acadêmico
+
+Projeto desenvolvido no **IFNMG — Instituto Federal do Norte de Minas Gerais**, na disciplina de Desenvolvimento Web.
+
+O projeto faz parte da formação técnica em Informática e teve como objetivo aplicar, de forma prática, conceitos de desenvolvimento frontend.
 
 ## 👤 Autor
-Bryan — Curso de Desenvolvimento Web, IFNMG
+
+**Bryan**
+
+Estudante de Técnico em Informática no IFNMG e desenvolvedor em formação.
+
+[GitHub](https://github.com/Bryan0029)
